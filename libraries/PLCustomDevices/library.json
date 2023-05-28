@@ -1,0 +1,32 @@
+{
+    "name": "PLCustomDevices",
+    "keywords": "perfect, lights, custom, devices, google, smart, home, mqtt, iot",
+    "description": "[BETA] Perfect Lights Custom Devices official library",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/oguzkaganyaglioglu/PLCustomDevicesLibrary.git"
+    },
+    "version": "0.2.0",
+    "authors":
+    [
+      {
+        "name": "Oguz Kagan YAGLIOGLU",
+        "email": "me@oguzkakgan.xyz",
+        "url": "https://oguzkagan.xyz",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://perfectlights.oguzkagan.xyz/",
+    "dependencies": {
+      "knolleary/PubSubClient": "^2.8",
+      "bblanchon/ArduinoJson":"^6.18.0"
+    },
+    "examples": "examples/*/*.ino",
+    "frameworks": "arduino",
+    "platforms": [
+        "atmelavr",
+        "espressif8266",
+        "espressif32"
+    ]
+}

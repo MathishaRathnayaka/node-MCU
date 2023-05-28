@@ -1,0 +1,29 @@
+{
+    "name": "muwerk",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/muwerk/muwerk.git"
+    },
+    "keywords": "scheduler",
+    "description": "Cooperative scheduler and mqtt-like communication queues",
+    "authors": [
+        {
+            "name": "Dominik Schlösser",
+            "email": "dsc@dosc.net",
+            "maintainer": true
+        },
+        {
+            "name": "Leo Moll",
+            "email": "leo@yeasoft.com",
+            "maintainer": true
+        }
+    ],
+    "dependencies": {
+        "name": "ustd",
+        "authors": "Dominik Schlösser, Leo Moll",
+        "frameworks": "arduino"
+    },
+    "version": "0.6.4",
+    "frameworks": "arduino",
+    "platforms": "*"
+}
